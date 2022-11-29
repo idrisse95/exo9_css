@@ -55,12 +55,16 @@ h1,h3{
 
 /* début exo 02 background*/
 .bg-1{
-}
+    background-image: linear-gradient(red, green);}
 .bg-2{
+    background-image: radial-gradient(red 5%,green 60%);
 }
 .bg-3{
+    background-image: linear-gradient(to left, red 7%, green 45%);
 }
 .bg-4{
+    background-image: linear-gradient(to top right, red , green 45%);
+
 }
 /* fin exo 02 background*/
 
