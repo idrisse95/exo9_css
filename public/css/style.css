@@ -70,30 +70,66 @@ h1,h3{
 
 /* début exo 03 background-position*/
 .img-1{ 
+    background-image: url(/public/images/bg_image.jpg) ;
+    background-size: 650%;
 }
 .img-2{
+    background-image: url(/public/images/bg_image.jpg);
+    background-repeat: no-repeat;
+    background-size: 700%;
+    background-position-x: 50% ;
+    background-position-y: 50%;
+
 }
 .img-3{
+    background-image: url(/public/images/bg_image.jpg);
+    background-repeat: no-repeat;
+    background-size: 700%;
+    background-position-x: 100% ;
+    background-position-y: 50%;
 }
 .img-4{
+    background-image: url(/public/images/bg_image.jpg);
+    background-repeat: no-repeat;
+    background-size: 700%;
+    background-position-y: 50%;
 }
 /* fin exo 03 background-position*/
 
 /* début exo 04 background-repeat*/
 .img-5{
+    background: url(/public/images/bg_image_petite.jpg);
+    background-repeat: no-repeat;
 }
 .img-6{
+    background: url(/public/images/bg_image_petite.jpg);
+    background-repeat:repeat-x;
+
 }
 .img-7{
+    background: url(/public/images/bg_image_petite.jpg);
+    background-repeat:repeat-y;
+
 }
 /* fin exo 04 background-repeat*/
 
 /* début exo 05 background-size*/
 .img-8{ 
+    background: url(/public/images/bg_image_petite.jpg);
+    background-size:50px;
+
 }
 .img-9{ 
+    background: url(/public/images/bg_image_petite.jpg) ;
+    height: 200px;
+    background-size:150px;
+    background-size: 100px;
+
 }
 .img-10{
+    background: url(/public/images/bg_image_petite.jpg);
+    background-size:cover;
+
 }
 .img-11{
 }
@@ -101,9 +137,10 @@ h1,h3{
 
 /* début exo 06 background-attachement*/
 .img-12{
+    background: url(/public/images/bg_image_petite.jpg);
+    background-attachment: fixed;
 }
 .img-13{
 }
 /* fin exo 06 background-attachement*/
-
 
